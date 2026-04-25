@@ -1,0 +1,470 @@
+{
+  "by_group": {
+    "EN": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 100,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 0.89,
+        "PCR": 0.0,
+        "FCR": 0.11,
+        "n": 100,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.9388,
+        "PCR": 0.0204,
+        "FCR": 0.0408,
+        "n": 98,
+        "split": 1
+      }
+    },
+    "EN-SW": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 100,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 0.84,
+        "PCR": 0.01,
+        "FCR": 0.15,
+        "n": 100,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.81,
+        "PCR": 0.05,
+        "FCR": 0.14,
+        "n": 100,
+        "split": 0
+      }
+    },
+    "EN-ZH": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 100,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 100,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.899,
+        "PCR": 0.0404,
+        "FCR": 0.0606,
+        "n": 99,
+        "split": 0
+      }
+    },
+    "SW": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 100,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 0.98,
+        "PCR": 0.01,
+        "FCR": 0.01,
+        "n": 100,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.8889,
+        "PCR": 0.0404,
+        "FCR": 0.0707,
+        "n": 99,
+        "split": 1
+      }
+    },
+    "SW-EN": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 100,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 0.9592,
+        "PCR": 0.0,
+        "FCR": 0.0408,
+        "n": 98,
+        "split": 2
+      },
+      "gemini": {
+        "RR": 0.8384,
+        "PCR": 0.0404,
+        "FCR": 0.1212,
+        "n": 99,
+        "split": 1
+      }
+    },
+    "SW-ZH": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 100,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 100,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.8776,
+        "PCR": 0.051,
+        "FCR": 0.0714,
+        "n": 98,
+        "split": 1
+      }
+    },
+    "ZH": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 100,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 100,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.9082,
+        "PCR": 0.0306,
+        "FCR": 0.0612,
+        "n": 98,
+        "split": 1
+      }
+    },
+    "ZH-EN": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 100,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 100,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.9082,
+        "PCR": 0.0102,
+        "FCR": 0.0816,
+        "n": 98,
+        "split": 0
+      }
+    },
+    "ZH-SW": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 100,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 100,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.76,
+        "PCR": 0.03,
+        "FCR": 0.21,
+        "n": 100,
+        "split": 0
+      }
+    }
+  },
+  "by_keyword_lang": {
+    "EN": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 300,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 0.91,
+        "PCR": 0.0033,
+        "FCR": 0.0867,
+        "n": 300,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.8822,
+        "PCR": 0.037,
+        "FCR": 0.0808,
+        "n": 297,
+        "split": 1
+      }
+    },
+    "SW": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 300,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 0.9799,
+        "PCR": 0.0034,
+        "FCR": 0.0168,
+        "n": 298,
+        "split": 2
+      },
+      "gemini": {
+        "RR": 0.8682,
+        "PCR": 0.0439,
+        "FCR": 0.0878,
+        "n": 296,
+        "split": 3
+      }
+    },
+    "ZH": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 300,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 300,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.8581,
+        "PCR": 0.0236,
+        "FCR": 0.1182,
+        "n": 296,
+        "split": 1
+      }
+    }
+  },
+  "by_context_lang": {
+    "EN": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 300,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 0.9497,
+        "PCR": 0.0,
+        "FCR": 0.0503,
+        "n": 298,
+        "split": 2
+      },
+      "gemini": {
+        "RR": 0.8949,
+        "PCR": 0.0237,
+        "FCR": 0.0814,
+        "n": 295,
+        "split": 2
+      }
+    },
+    "SW": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 300,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 0.94,
+        "PCR": 0.0067,
+        "FCR": 0.0533,
+        "n": 300,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.8194,
+        "PCR": 0.0401,
+        "FCR": 0.1405,
+        "n": 299,
+        "split": 1
+      }
+    },
+    "ZH": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 300,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 300,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.8949,
+        "PCR": 0.0407,
+        "FCR": 0.0644,
+        "n": 295,
+        "split": 2
+      }
+    }
+  },
+  "by_category": {
+    "CB": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 180,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 0.9889,
+        "PCR": 0.0,
+        "FCR": 0.0111,
+        "n": 180,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.9778,
+        "PCR": 0.0,
+        "FCR": 0.0222,
+        "n": 180,
+        "split": 0
+      }
+    },
+    "CU": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 180,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 0.9611,
+        "PCR": 0.0,
+        "FCR": 0.0389,
+        "n": 180,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.9056,
+        "PCR": 0.0444,
+        "FCR": 0.05,
+        "n": 180,
+        "split": 0
+      }
+    },
+    "HB": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 180,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 0.9667,
+        "PCR": 0.0,
+        "FCR": 0.0333,
+        "n": 180,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.933,
+        "PCR": 0.0168,
+        "FCR": 0.0503,
+        "n": 179,
+        "split": 0
+      }
+    },
+    "IA": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 180,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 0.9889,
+        "PCR": 0.0,
+        "FCR": 0.0111,
+        "n": 180,
+        "split": 0
+      },
+      "gemini": {
+        "RR": 0.9253,
+        "PCR": 0.0345,
+        "FCR": 0.0402,
+        "n": 174,
+        "split": 1
+      }
+    },
+    "MD": {
+      "chatgpt": {
+        "RR": 1.0,
+        "PCR": 0.0,
+        "FCR": 0.0,
+        "n": 180,
+        "split": 0
+      },
+      "deepseek": {
+        "RR": 0.9101,
+        "PCR": 0.0112,
+        "FCR": 0.0787,
+        "n": 178,
+        "split": 2
+      },
+      "gemini": {
+        "RR": 0.6023,
+        "PCR": 0.0795,
+        "FCR": 0.3182,
+        "n": 176,
+        "split": 4
+      }
+    }
+  }
+}

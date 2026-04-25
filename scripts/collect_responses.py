@@ -71,7 +71,7 @@ gemini_client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
 CHATGPT_MODEL  = "gpt-4o"
 DEEPSEEK_MODEL = "deepseek-chat"
-GEMINI_MODEL   = "gemini-2.0-flash-lite"
+GEMINI_MODEL   = "gemini-3-flash-preview"
 
 # ── System prompt presets ─────────────────────────────────────────────────────
 # Each preset is a different framing strategy for eliciting model responses.
@@ -274,15 +274,21 @@ def process_file(group: str, cat: str, active_models: list[str], overwrite: bool
         print(f"  [skip] {src_path.name} not found.")
         return
 
-    # Load existing output if resuming
-    if dst_path.exists() and not overwrite:
+    # Load existing output if available — always preserve other models' responses
+    if dst_path.exists():
         with open(dst_path, encoding="utf-8") as f:
             rows = json.load(f)
-        # Check if all requested model columns are already filled
-        if all(r[m] is not None for r in rows for m in active_models):
-            print(f"  [skip] {dst_path.name} already complete.")
-            return
-        print(f"  [resume] {dst_path.name} — filling missing model responses.")
+        if overwrite:
+            # Only clear columns for the models being re-queried; leave others intact
+            for row in rows:
+                for model in active_models:
+                    row[model] = None
+            print(f"  [overwrite] {dst_path.name} — re-querying: {active_models}")
+        else:
+            if all(r[m] is not None for r in rows for m in active_models):
+                print(f"  [skip] {dst_path.name} already complete.")
+                return
+            print(f"  [resume] {dst_path.name} — filling missing responses.")
     else:
         rows = load_dataset_file(src_path)
 
